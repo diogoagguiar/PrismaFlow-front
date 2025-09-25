@@ -1,0 +1,131 @@
+{
+  "setting": [
+    {
+      "id": "1",
+      "settingCategory": "app_settings",
+      "settingKey": "app_name",
+      "settingValue": "Gestor Ótica PRO"
+    },
+    {
+      "id": "2",
+      "settingCategory": "money_format_settings",
+      "settingKey": "default_currency_code",
+      "settingValue": "BRL"
+    }
+  ],
+  "client": [
+    {
+      "id": "c1",
+      "name": "Maria Joaquina",
+      "phone": "11 99999-8888",
+      "email": "maria@example.com",
+      "history": "Cliente antigo, prefere armações leves."
+    }
+  ],
+  "product": [
+    {
+      "id": "p1",
+      "name": "Armação Ray-Ban Aviator",
+      "brand": "Ray-Ban",
+      "supplierId": null,
+      "stock": 10,
+      "purchasePrice": 250,
+      "salePrice": 450
+    },
+    {
+      "id": "p2",
+      "name": "Lente Zeiss 1.5 com Antirreflexo",
+      "brand": "Zeiss",
+      "supplierId": null,
+      "stock": 30,
+      "purchasePrice": 180,
+      "salePrice": 350
+    }
+  ],
+  "service": [
+    {
+      "id": "srv1",
+      "name": "Ajuste de Armação",
+      "price": 0
+    },
+    {
+      "id": "srv2",
+      "name": "Limpeza Ultrassónica",
+      "price": 25
+    }
+  ],
+  "prescription": [
+    {
+      "id": "r1",
+      "clientId": "c1",
+      "doctorName": "Dr. Ricardo",
+      "esf_od": -1.5,
+      "cil_od": -0.5,
+      "eixo_od": 180,
+      "dnp_od": 32,
+      "esf_oe": -1.75,
+      "cil_oe": -0.25,
+      "eixo_oe": 175,
+      "dnp_oe": 31.5,
+      "adicao": 0
+    }
+  ],
+  "supplier": [
+    {
+      "id": "bade",
+      "name": "teste",
+      "cnpj": "650320330320",
+      "email": "diogosilvaaguiar10@gmail.com",
+      "phone": "9899118121",
+      "address": "mora na casa do carai porra"
+    },
+    {
+      "id": "e4f6",
+      "name": "teste",
+      "cnpj": "teste",
+      "email": ""
+    },
+    {
+      "id": "b410",
+      "name": "diogo",
+      "cnpj": "12.345.678/0001-90",
+      "email": "diogosilvaaguiar10@gmail.com",
+      "phone": "98909091912"
+    }
+  ],
+  "user": [
+    {
+      "id": "u1",
+      "name": "Admin",
+      "role": "admin"
+    },
+    {
+      "id": "u2",
+      "name": "Vendedor 1",
+      "role": "vendedor"
+    }
+  ],
+  "sale": [
+    {
+      "id": "v1",
+      "number": "V-001",
+      "clientId": "c1",
+      "userId": "u2",
+      "prescriptionId": "r1",
+      "total": 800,
+      "paymentMethod": "Cartão de Crédito",
+      "installments": 4,
+      "status": "Concluída"
+    }
+  ],
+  "payable": [
+    {
+      "id": "pg1",
+      "description": "Boleto Luxottica",
+      "supplierId": null,
+      "value": 2500,
+      "dueDate": "2025-10-30",
+      "status": "Pendente"
+    }
+  ]
+}

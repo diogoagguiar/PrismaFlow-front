@@ -1,0 +1,11 @@
+{
+    "/:entity/listAll": "/:entity",
+    "/:entity/list": "/:entity",
+    "/:entity/search": "/:entity",
+    "/:entity/filter": "/:entity",
+    "/:entity/summary": "/:entity",
+    "/:entity/create": "/:entity",
+    "/:entity/read/:id": "/:entity/:id",
+    "/:entity/update/:id": "/:entity/:id",
+    "/:entity/delete/:id": "/:entity/:id"
+}
